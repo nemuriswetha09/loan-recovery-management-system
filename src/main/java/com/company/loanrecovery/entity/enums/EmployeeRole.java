@@ -4,5 +4,7 @@ public enum EmployeeRole {
     ADMIN,
     TEAMLEAD,
     MANAGER,
-    AGENT
+    AGENT,
+    TELECALLER,
+    SUPERADMIN
 }

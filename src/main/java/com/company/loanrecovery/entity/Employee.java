@@ -33,7 +33,7 @@ public class Employee {
     private String gender;
 
     @Enumerated(EnumType.STRING)
-    @Column(nullable = false)
+    @Column(nullable = false ,length = 30, columnDefinition = "VARCHAR(30)")
     private EmployeeRole role;
 
     @Column(nullable = false)
